@@ -1,0 +1,143 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fefbf5; /* Color claro de fondo */
+    font-family: "Georgia", serif;
+    color: #2b3a4d; /* Azul oscuro */
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Encabezado */
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ec760e; /* Naranja */
+  }
+  
+  .menu div {
+    width: 25px;
+    height: 3px;
+    background-color: #2b3a4d;
+    margin: 5px 0;
+  }
+  
+  /* Botón de regreso */
+  .regresar {
+    position: absolute;
+    top: 20%;
+    left: 20px;
+  }
+  
+  .boton-regresar {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ec760e; /* Naranja */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+    color: #ec760e;
+    cursor: pointer;
+  }
+  
+  .boton-regresar i {
+    font-size: 16px;
+  }
+  
+  /* Contenido principal */
+  main {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    color: #2b3a4d; /* Azul oscuro */
+    font-weight: bold;
+    margin-bottom: 30px;
+  }
+  
+  h1::after {
+    content: '';
+    display: block;
+    width: 60%;
+    height: 2px;
+    background-color: #ccc; /* Línea sutil */
+    margin: 10px auto 0;
+  }
+  
+  /* Marco decorativo y lista */
+  .lista-contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .marco {
+    border: 2px solid #2b3a4d; /* Azul oscuro */
+    padding: 30px;
+    width: 300px;
+    position: relative;
+  }
+  
+  .marco::before,
+  .marco::after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 50%;
+    border: 2px solid #2b3a4d;
+  }
+  
+  .marco::before {
+    top: 0;
+    left: -20px;
+    border-left: none;
+    border-bottom: none;
+  }
+  
+  .marco::after {
+    bottom: 0;
+    right: -20px;
+    border-right: none;
+    border-top: none;
+  }
+  
+  .lista {
+    list-style: none;
+    text-align: center;
+    line-height: 2;
+  }
+  
+  .lista li {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: right;
+    padding: 20px;
+  }
+  
+  .perfil-menu {
+    font-size: 28px;
+    color: #2b3a4d;
+  }
+  
