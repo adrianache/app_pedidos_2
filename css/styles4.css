@@ -1,67 +1,31 @@
 /*# CONTENIDO PRINCIPAL */
-  
+
   h1 {
     text-align: center;
-    font-size: 50px;  
+    font-size: 50px;    
     color: #1a6d91 ;
     font-weight: 100;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
   
   h1::after {
     content: '';
     display: block;
-    width: 60%;
+    width: 30%;
     height: 2px;
-    background-color: #ccc;
-    margin: 10px auto 0;
+    background-color: #ddd;
+    margin: 20px auto 0;
   }
-  
-  /* Marco decorativo y lista */
-  .container-list {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .marco {
-    border: 2px solid #2b3a4d;
-    padding: 30px;
-    width: 300px;
-    position: relative;
-  }
-  
-  .marco::before,
-  .marco::after {
-    content: '';
-    position: absolute;
-    width: 20px;
-    height: 50%;
-    border: 2px solid #2b3a4d;
-  }
-  
-  .marco::before {
-    top: 0;
-    left: -20px;
-    border-left: none;
-    border-bottom: none;
-  }
-  
-  .marco::after {
-    bottom: 0;
-    right: -20px;
-    border-right: none;
-    border-top: none;
-  }
-  
+ 
   .list {
-    list-style: none;
     text-align: center;
-    line-height: 2;
+    line-height: 3.5;
   }
   
-  .list li {
-    font-size: 18px;
-    font-weight: bold;
+  .list li a {
+    font-size: 28px;
+    color: #000;
+    letter-spacing: 10px;
+    /* font-weight: bold; */
   }
   
