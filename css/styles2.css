@@ -1,53 +1,4 @@
-/* General */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: "Georgia", serif;
-  background-color: #fffbf6;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-/* Encabezado con el logo y menú hamburguesa */
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  align-items: center;
-}
-
-.logo a {
-  font-size: 46px;
-  color: #ff8000;
-  text-decoration: none;
-  margin: 30px;
-}
-
-.logo p {
-  font-size: 14px;
-  text-align: center;
-}
-
-.menu {
-  cursor: pointer;
-}
-
-.menu div {
-  width: 42px;
-  height: 5px;
-  background-color: #103e5b;
-  margin: 8px 0;
-  position: relative;
-  right: 30px;
-}
-
-/* Barra de búsqueda */
+/*# BARRA DE BÚSQUEDA */
 .search-bar {
   display: flex;
   /* flex-direction: column; */ /*! ELIMINAR?? */
@@ -67,6 +18,7 @@ header {
   background-color: #fff;
 }
 
+/* icono lupa e icono "X" */
 .buscador i {
   color: #103e5b;
   margin: 0 10px;
@@ -78,7 +30,7 @@ header {
   border: none;
   outline: none;
   font-size: 28px;
-  color: #103e5b;
+  color: #ff8000;
   width: 100%;
   text-align: center;
   text-transform: uppercase;
@@ -91,21 +43,11 @@ input:focus::placeholder {
   color: transparent;
 }
 
-/* Flecha hacia abajo */
-.flecha i {
+footer
+/* flecha hacia abajo */
+.arrow a {
   font-size: 70px;
   color: #ff8000;
   display: flex;
   justify-content: center;
-}
-
-/* Footer */
-footer {
-  text-align: right;
-  padding: 20px;
-}
-
-footer i {
-  font-size: 20px;
-  color: #103e5b;
 }

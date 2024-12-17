@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Georgia", serif;
+    background-color: #fffbf6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/*# LOGO Y MENÚ HAMB */
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo a {
+    font-size: 46px;
+    color: #ff8000;
+    margin: 30px;
+}
+
+.logo p {
+    font-size: 14px;
+    text-align: center;
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu div {
+    width: 42px;
+    height: 5px;
+    background-color: #103e5b;
+    margin: 8px 0;
+    position: relative;
+    right: 30px;
+}
+
+/*# FLECHA DE REGRESO  */
+
+.to-back {
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+/* flecha de regreso */
+  .back-arrow {
+    border: 3px solid #ff8000;
+    border-radius: 100%;
+    padding: 15px;
+  }
+
+  .back-arrow a {
+    font-size: 50px;
+    color: #ff8000;
+    display: flex;
+    justify-content: center;
+  }
+  
+/*# PIE DE PÁGINA */
+footer {
+    /* text-align: right; */
+    padding: 20px;
+}
+
+/* usuario */
+.user a {
+    font-size: 50px;
+    color: #103e5b;
+    display: flex;
+    justify-content: right;
+    position: relative;
+    right: 30px;
+}
